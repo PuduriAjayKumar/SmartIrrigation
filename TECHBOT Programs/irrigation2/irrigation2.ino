@@ -1,6 +1,6 @@
 #include <ESP8266WiFi.h>
 
-#include "Adafruit_MQTT.h"
+#include "Adafruit_MQTT.h"       //we used here adafruit server
 #include "Adafruit_MQTT_Client.h"
 
 #define relay1         D1
@@ -9,14 +9,14 @@
 #define relay4            D4
 
 
-#define WLAN_SSID       "ABRAHAM"             // Your SSID
-#define WLAN_PASS       "JAYAMANI50"        // Your password
+#define WLAN_SSID       "TECHBOT"             // Your SSID
+#define WLAN_PASS       "12345678"        // Your password
 
 /************************* Adafruit.io Setup *********************************/
 
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                   // use 8883 for SSL
-#define AIO_USERNAME  "ajaykumarpuduri"
+#define AIO_USERNAME  "ajaykumarpuduri"        //adafruit server username
 #define AIO_KEY       "665a52a274364810aae0548247197c36"
 
 int moisture=A0;
